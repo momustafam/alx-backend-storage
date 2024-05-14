@@ -1,9 +1,8 @@
 #!/user/bin/env python3
 '''Simple module since it has a simple function `list_all(collection)`.'''
-from typing import List
 
 
-def list_all(mongo_collection: dict) -> List[dict]:
+def list_all(mongo_collection):
     '''Lists all documents in a mongo collection.
 
     Parameters:
