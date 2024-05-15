@@ -2,7 +2,7 @@
 '''Simple module since it has a simple class.'''
 import redis
 import uuid
-from typing import Union
+from typing import Union, Collable, Optional
 
 
 class Cache:
