@@ -3,8 +3,9 @@
 Main file
 """
 import redis
-
+from exercise import replay
 Cache = __import__('exercise').Cache
+
 cache = Cache()
 cache.store("foo")
 cache.store("bar")
